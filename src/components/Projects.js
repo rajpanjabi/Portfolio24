@@ -57,6 +57,7 @@ function Projects(){
 
   return (
     <section id="projects" className="projects">
+      <div className='container'>
       <h2>Projects</h2>
 
       <div className="projectsGrid">
@@ -71,6 +72,7 @@ function Projects(){
           </div>
           </a>
         ))}
+      </div>
       </div>
     </section>
 

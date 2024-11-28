@@ -7,8 +7,63 @@ image{
   overflow: hidden;
   transform: rotate(3deg);
 }
+/* .projects {
+  background-color:#DEE6B2;
+  min-height: 100vh; 
+  padding: 0; 
+} */
+.container{
+  margin-right: 80px;
+  margin-left: 45px;
+
+}
 .about{
   height: 100vh;
+  color:#A44A3F;
   background-color:#DEE6B2;
+  
+  min-height: 100vh; 
+  padding: 0; 
+}
+.aboutText{
+  margin-bottom: 20px;
+  color:black
+}
 
+.casediv{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 3rem;
+  justify-content: space-around;
+  
+}
+
+.row1{
+  display:flex;
+  flex-direction: display;
+  gap: 2rem;
+  margin-bottom: 2rem;
+
+}
+
+.row2{
+  display:flex;
+  flex-direction: display;
+  gap: 2rem;
+  margin-bottom: 2rem;
+
+  
+}
+
+.row3{
+  display:flex;
+  flex-direction: display;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  
+}
+.subsection{
+  display: flex;
+  justify-content: center;
 }
