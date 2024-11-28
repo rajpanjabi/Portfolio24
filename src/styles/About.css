@@ -1,0 +1,12 @@
+h1 {
+    color:#A44A3F;
+    font-size:90px;
+}
+image{ 
+  border-radius: 10%;
+  overflow: hidden;
+  transform: rotate(3deg);
+}
+.about{
+  height: 100vh;
+}

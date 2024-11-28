@@ -1,0 +1,5 @@
+.Photosize{
+    height:250px;
+    width:300px;
+    object-fit:cover;
+}

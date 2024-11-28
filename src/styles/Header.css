@@ -1,0 +1,67 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    margin-left: 20px;
+}
+.logo-and-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hero{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h1 {
+    color:#A44A3F;
+    font-size:90px;
+}
+h2{
+    font-size:50px;
+}
+
+ul{ 
+    display: flex;
+    list-style-type: none;
+    width: 700px;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color:white;
+    transition: color 0.3s ease;
+}
+.nav-hover:hover{
+    color: #A44A3F;
+}
+
+logo{
+    height: 80px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.Rajphoto{
+    height: 370px;
+    width: 320px;
+    border-radius: 10%;
+    overflow: hidden;
+    /* transform: rotate(3deg); */
+  
+}
+.cv{
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: #F19C79;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 5px;
+    margin-top: 20px;
+   
+}
