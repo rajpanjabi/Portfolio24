@@ -59,23 +59,23 @@ function Projects(){
     <section id="projects" className="projects">
       <h2>Projects</h2>
 
-      {Projects.map((project)=> (
-        <a className="projectLink"  href={project.link}>
-        <img className="Photosize" src={project.photo}/>
-        <p> <strong>{project.name} </strong></p>
-        <p className="contentp">{project.content}</p>
-        </a>
-      ))}
+      <div className="projectsGrid">
+        {Projects.map((project) => (
+          <a className="projectLink" href={project.link} target="_blank" rel="noreferrer">
+          <div className="projectCard" key={project.name}>
+            <img className="projectImage" src={project.photo} alt={project.name} />
+            <h3 className="projectTitle">{project.name}</h3>
+            <p className="projectContent">{project.content}</p>
+          
             
-           
-     
-      <ul>
-        <li>Portfolio Website - React</li>
-        <li>Chatbot for LMS - Python, Moodle</li>
-        <li>LLM from Scratch - PyTorch</li>
-      </ul>
+          </div>
+          </a>
+        ))}
+      </div>
     </section>
+
   );
 }
 
 export default Projects;
+

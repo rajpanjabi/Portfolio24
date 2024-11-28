@@ -2,9 +2,14 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #D1DD92;
     color:white;
+  
 }
 
 h2{
     color:#A44A3F;
     
 }
+html, body {
+    margin: 0;
+    height: 100%; /* Ensures the body takes up the full height of the screen */
+  }

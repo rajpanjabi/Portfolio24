@@ -1,5 +1,133 @@
-.Photosize{
-    height:250px;
-    width:300px;
-    object-fit:cover;
+.projects {
+    background-color:#DEE6B2;
+    min-height: 100vh; 
+    padding: 0; 
 }
+
+.projectsGrid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 3rem;
+  background-color:#DEE6B2;
+
+}
+.projectCard{
+  display: flex;
+  flex-direction: column;
+  background-color:#F6F4D2;
+  color:#A44A3F;
+  width: 350px;
+  height: 500px;
+  border-radius: 25px;
+  margin: 20px;
+  text-align: center;
+  border: 1px solid #F9F7DC;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.projectImage{
+  width: 100%;
+  height: 200px;  
+  object-fit: cover;  /* Ensure the image covers the area without distortion */
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+  
+.projectCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+  
+.projectTitle {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+.projectContent {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    margin: 0 1rem 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+/* .projectImage{
+  width: 400px;
+  height: 300px;
+  margin-top: 25px;
+  border-radius: 30px;
+
+
+} */
+
+/* 
+
+.projects {
+    padding: 20px;
+    text-align: center;
+    background-color:#F6F4D2;
+  }
+  
+  .projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .projectCard {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .projectCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .projectImage {
+    width: 100%;
+    height: 200px;  
+    object-fit: cover;  /* Ensure the image covers the area without distortion */
+    /* border-radius: 10px;
+    margin-bottom: 15px;
+  } */
+  
+  /* .projectTitle {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .projectContent {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  .projectLink {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .projectLink:hover {
+    background-color: #0056b3;
+  } */ 
+

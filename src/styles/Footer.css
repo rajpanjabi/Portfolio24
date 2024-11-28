@@ -1,3 +1,33 @@
-.footer{
-    background-color: #D1DD92
+
+.Footer{
+    background-color:#DEE6B2;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+ 
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.image-bounce:hover {
+    animation: bounce 0.5s ease;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    color: black;
 }

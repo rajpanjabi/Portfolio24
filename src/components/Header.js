@@ -20,7 +20,7 @@ function Header() {
     <div className='heroText'>
 
     <h1 className='Name'>Raj Panjabi</h1>
-    <h2>Aspiring Software Engineer</h2>
+    <p className='heroCont'>Aspiring Software Engineer</p>
     
     <button className="cv"><a className="cvlink" href="https://drive.google.com/file/d/1hhZewm-fp-qAAg3sDbvFF6FqgBfn9jOv/view?usp=sharing" target="_blank"><div class="button">Resume</div></a></button>
     </div>
