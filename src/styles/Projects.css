@@ -1,22 +1,22 @@
 .projects {
-    background-color:#DEE6B2;
+    /* background-color:#DEE6B2; */
     min-height: 100vh; 
     padding: 0; 
-}
-
+} 
 .projectsGrid{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   row-gap: 3rem;
-  background-color:#DEE6B2;
+  /* background-color:#DEE6B2; */
 
 }
 .projectCard{
   display: flex;
   flex-direction: column;
-  background-color:#F6F4D2;
+  /* background-color:#F6F4D2; */
+  background-color:#ffffff;
   color:#A44A3F;
   width: 350px;
   height: 500px;
@@ -44,12 +44,14 @@
   
 .projectTitle {
     font-size: 1.2rem;
-    color: #555;
     margin-bottom: 10px;
+    color:#3E5879;
   }
 .projectContent {
     font-size: 0.95rem;
-    color: #555;
+    /* color: #555; */
+    color:black;
+
     margin-bottom: 15px;
     line-height: 1.5;
     margin: 0 1rem 1rem;

@@ -1,3 +1,120 @@
-.workEx{
-    min-height: 100vh;
-}
+/* WorkExperience.css */
+/* WorkEx.css */
+.work-experience {
+    padding: 50px 20px;
+    /* background-color: #f8f8f8; */
+    /* background-color:#fcfcfc; */
+    /* background-color:#B9E5E8; */
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .workEx{
+    /* background-color:#fcfcfc; */
+    /* background-color:#DFF2EB; */
+    /* background-color:#B9E5E8 */
+  }
+
+  .jobContent{
+    display: flex;
+    flex-direction: column;
+    /* font-weight:400; */
+    row-gap: 1.5rem;
+    font-size: 20px;
+   font-weight: 500;
+
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    color:#A44A3F;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .work-card {
+    /* background-color: #F6F4D2; */
+    background-color:#ffffff;
+    border-radius: 8px;
+    box-shadow: 0 8px 12px rgba(55, 53, 53, 0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .work-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.6);
+  }
+  .worktitle{
+    padding-left: 40px;
+  }
+  
+  .work-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 20px;
+    color:#3E5879;
+  }
+  
+  .work-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    /* color: #2c3e50; */
+    color:#3E5879;
+    margin-bottom: 5px;
+  }
+  
+  .work-role-duration p {
+    font-size: 1.1rem;
+    /* color: #7f8c8d; */
+     color: #2c3e50;
+  }
+  
+  .work-duration {
+    font-style: italic;
+  }
+  
+  .work-description ul {
+    padding-left: 20px;
+    width: 100%;
+    
+  }
+
+  .work-description{
+    display: flex;
+    /* justify-content: center; */
+    width: 70%;
+  }
+  
+  .description-item {
+    /* font-size: 1rem; */
+    /* line-height: 1; */
+    color:black;
+    font-size: 18px;
+    /* color: #34495e; */
+  }
+  
+  .description-item::before {
+    margin-right: 10px;
+    color: #27ae60;
+  }
+  
+  @media (max-width: 768px) {
+    .work-card {
+      padding: 15px;
+    }
+  
+    .work-title {
+      font-size: 1.4rem;
+    }
+  
+    .work-role-duration p {
+      font-size: 1rem;
+    }
+  
+    .description-item {
+      font-size: 0.95rem;
+    }
+    
+  }

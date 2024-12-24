@@ -25,14 +25,14 @@ function About() {
     <div className='container'>
      <h2>About Me</h2>
       <h3>👋 Hello, I'm Raj Panjabi</h3>
-      <p className="aboutText" >I’m a Computer Science undergrad at York University, diving deep into software development, data analytics, and machine learning.</p>
+      <p className="aboutText" >I’m a recent Computer Science graduate 👨🏻‍🎓 from York University, diving deep into software development, data analytics, and machine learning.</p>
       
-      <p className="aboutText" >But when I’m not busy debugging code, you’ll find me passionately cheering on my cricket team, binge-watching Netflix shows (I’m an expert at avoiding spoilers), or jamming to some good music.</p>
+      <p className="aboutText" >I enjoy working out, binge-watching Netflix, and building scalable apps with my headphones on 🎧 and an iced coffee by my side</p>
 
-      <p className="aboutText" >My life motto? “Try again, fail again, fail better.” It’s basically my approach to everything — especially when it comes to figuring out new tech or perfecting my cricket game (which, let’s be honest, still needs work).</p>
+      <p className="aboutText" >My life motto? “Try again, fail again, fail better.” </p>
 
       <p className="aboutText" >If you’re up for a chat, collaboration, or just want to swap Netflix recommendations, feel free to reach out! Let’s make something amazing together! 🤝💡</p>
-      <h3>👨🏻‍💻 Skills</h3>
+      <h3 className='sk'>👨🏻‍💻 Skills</h3>
 
         <div className="casediv">
           <div className="lang">

@@ -1,12 +1,39 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #D1DD92;
-    color:white;
+    /* background-color: #D1DD92; */
+    /* background-color:#e7e7e7; */
+    /* background-color:#fcfcfc; */
+    background-color:#DFF2EB;
+    
   
 }
 
+.scroll-to-top {
+  position: fixed;
+  bottom: 80px; /* Adjust this value to position the button above the footer */
+  right: 20px; /* Adjust this value to position the button from the right edge */
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000; /* Ensure it stays on top */
+  transition: background-color 0.3s;
+}
+
+.scroll-to-top:hover {
+  background-color: #555;
+}
+
+
+
+
 h2{
-    color:#A44A3F;
+    /* color:#A44A3F; */
+   /* color:#708090; */
+    color:#3E5879;
+    padding-top: 30px;;
     
 }
 html, body {
@@ -15,8 +42,10 @@ html, body {
   }
 p{
   margin: 0px;
-  font-size: 22px;}
+  font-size: 22px;
+}
 h3{
     font-size: 30px;
+    color:#3E5879;
 
 }

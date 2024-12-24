@@ -10,12 +10,23 @@
     justify-content: space-between;
     /* background-color:#DEE6B2; */
     width:100%;
+    color: #F0F8FF;
+    /* position: fixed; */
+    
+}
+
+.hero .heroText .Name{
+  color: #F0F8FF
 }
 .hero{
     margin-top: 100px;
     display: flex;
     flex-direction: row;
+    /* justify-content: space-around; */
+    display: flex;
+    height: 100%;
     justify-content: space-around;
+    /* align-items: center; */
 }
 h1 {
     color:#A44A3F;
@@ -27,9 +38,10 @@ h2{
 }
 
 .heroCont{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     font-size:50px;
     font-weight:bold;
+    color:#708090
     
 }
 
@@ -47,12 +59,13 @@ a{
     transition: color 0.3s ease;
 }
 .nav-hover:hover{
-    color:white;
+    color: #A44A3F;
    
     
 }
 .nav-hover{
-    color: #A44A3F;
+    /* color:black; */
+    color:#708090
     
 }
 
@@ -73,7 +86,8 @@ logo{
     width: 200px;
     height: 55px;
     border-radius: 30px;
-    background-color: #F19C79; 
+    background-color: #A44A3F;
+    
     text-align: center;
     font-size: 30px;
     font-weight: 600;
@@ -84,7 +98,7 @@ logo{
     cursor: pointer; 
 }
 .cv:hover {
-    background-color: #A44A3F; /* Change background color on hover */
+    background-color:#c1869a; /* Change background color on hover */
 }
 
 .cvlink {
@@ -93,5 +107,100 @@ logo{
 }
 
 .button {
-    color: white; 
+    color: white;
+   
 }
+.social-links-header{
+    padding-left: 70%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    height:50px;
+    width:50px;
+    font-size: 40px;
+    padding-top: 80px;;
+    
+}
+
+
+.social-links-header .social a {
+    color: white; /* Ensures it inherits the default color */
+    transition: color 0.3s ease; /* Adds smooth color transition */
+}
+
+.social-links-header .social a:hover {
+    color: #A44A3F; /* Changes color on hover */
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .logo-and-nav {
+      flex-direction: roq;
+      align-items: center;
+      gap: 1rem;
+    }
+  
+    .logo-and-nav ul {
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap:1rem;
+      column-gap:1rem;
+    }
+  
+    .hero {
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+    }
+  
+    h1 {
+      font-size: 3rem;
+    }
+  
+    .heroCont {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+    .cv {
+      font-size: 1rem;
+    }
+  
+    .social-links-header {
+      flex-direction: row;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 10px;
+      display: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+ 
+  
+    .heroCont {
+      font-size: 1.2rem;
+    }
+  
+    .cv {
+      font-size: 0.9rem;
+      width: 180px;
+      height: 50px;
+    }
+  
+    .social-links-header {
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      display: none;
+    }
+  
+    .logo-and-nav ul {
+      font-size: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }

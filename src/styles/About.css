@@ -1,69 +1,140 @@
 h1 {
-    color:#A44A3F;
-    font-size:90px;
+  color:#A44A3F;
+  
+  font-size:90px;
+}
+.sk{
+  padding-top:30px ;
 }
 image{ 
-  border-radius: 10%;
-  overflow: hidden;
-  transform: rotate(3deg);
+border-radius: 10%;
+overflow: hidden;
+transform: rotate(3deg);
 }
 /* .projects {
-  background-color:#DEE6B2;
-  min-height: 100vh; 
-  padding: 0; 
+background-color:#DEE6B2;
+min-height: 100vh; 
+padding: 0; 
 } */
 .container{
-  margin-right: 80px;
-  margin-left: 45px;
+margin-right: 80px;
+margin-left: 45px;
 
 }
 .about{
-  height: 100vh;
-  color:#A44A3F;
-  background-color:#DEE6B2;
-  
-  min-height: 100vh; 
-  padding: 0; 
+height: 100vh;
+color:#A44A3F;
+/* background-color:#fcfcfc; */
+background-color:#DFF2EB;
+
+min-height: 100vh; 
+padding: 0; 
+/* background-color:#DEE6B2; */
 }
 .aboutText{
-  margin-bottom: 20px;
-  color:black
+margin-bottom: 20px;
+color:black
 }
 
 .casediv{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  column-gap: 3rem;
-  justify-content: space-around;
-  
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+column-gap: 3rem;
+justify-content: space-around;
+
 }
 
 .row1{
-  display:flex;
-  flex-direction: display;
-  gap: 2rem;
-  margin-bottom: 2rem;
+display:flex;
+flex-direction: display;
+gap: 2rem;
+margin-bottom: 2rem;
 
 }
 
 .row2{
-  display:flex;
-  flex-direction: display;
-  gap: 2rem;
-  margin-bottom: 2rem;
+display:flex;
+flex-direction: display;
+gap: 2rem;
+margin-bottom: 2rem;
 
-  
+
 }
 
 .row3{
-  display:flex;
-  flex-direction: display;
-  gap: 2rem;
-  margin-bottom: 2rem;
-  
+display:flex;
+flex-direction: display;
+gap: 2rem;
+margin-bottom: 2rem;
+
 }
 .subsection{
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
+}
+
+/* For tablets and smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem; /* Reduce heading size for better fit */
+  }
+
+  .container {
+    margin-right: 20px;
+    margin-left: 20px; /* Reduce container margins */
+  }
+
+  .casediv {
+    flex-direction: column; /* Stack sections vertically */
+    gap: 2rem; /* Add space between sections */
+    align-items: center; /* Center align all items */
+  }
+
+  .row1, .row2, .row3 {
+    flex-direction: row; /* Keep icons in rows */
+    justify-content: center; /* Center icons horizontally */
+    gap: 1.5rem; /* Adjust spacing between icons */
+  }
+
+  .aboutText {
+    font-size: 1rem; /* Reduce text size for readability */
+    margin-bottom: 15px; /* Adjust spacing */
+  }
+
+  .subsection {
+    font-size: 1.5rem; /* Adjust subsection heading size */
+  }
+}
+
+/* For mobile phones (max-width: 480px) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem; /* Further reduce heading size */
+  }
+
+  .about {
+    padding: 1rem; /* Add padding for better layout */
+  }
+
+  .aboutText {
+    font-size: 0.9rem; /* Adjust text size for smaller screens */
+    line-height: 1.4; /* Increase line spacing for readability */
+  }
+
+  .casediv {
+    flex-direction: column; /* Ensure sections stack vertically */
+    gap: 1rem; /* Reduce space between sections */
+  }
+
+  .row1, .row2, .row3 {
+    flex-direction: row; /* Icons remain in rows */
+    justify-content: center; /* Center-align icons */
+    gap: 1rem; /* Adjust spacing between icons */
+  }
+
+  .subsection {
+    font-size: 1.2rem; /* Adjust subsection heading size */
+    text-align: center;
+  }
 }

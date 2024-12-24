@@ -1,0 +1,19 @@
+/* .IntroText{
+    color:black;
+    display: flex;
+    justify-content:center;
+    font-weight: 9rem;
+    font-size: 1.8rem;
+    
+} */
+
+.out{
+    display: flex;
+    justify-content:center;
+}
+.heroCont{
+    /* margin-top: 50px; */
+    font-size:50px;
+    font-weight:bold;
+    
+}
