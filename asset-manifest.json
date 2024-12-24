@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio24/static/css/main.175e6e41.css",
+    "main.css": "/Portfolio24/static/css/main.739f83ff.css",
     "main.js": "/Portfolio24/static/js/main.0b718782.js",
     "static/media/codLol.png": "/Portfolio24/static/media/codLol.93384e46ea713bf5b6dd.png",
     "static/media/capitalQuizpic.png": "/Portfolio24/static/media/capitalQuizpic.c4b3b38bab57f179cdc2.png",
@@ -17,11 +17,11 @@
     "static/media/fa-v4compatibility.woff2": "/Portfolio24/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
     "index.html": "/Portfolio24/index.html",
     "static/media/logo.svg": "/Portfolio24/static/media/logo.767aa32adf37a145e5f2e9a9f7b904ce.svg",
-    "main.175e6e41.css.map": "/Portfolio24/static/css/main.175e6e41.css.map",
+    "main.739f83ff.css.map": "/Portfolio24/static/css/main.739f83ff.css.map",
     "main.0b718782.js.map": "/Portfolio24/static/js/main.0b718782.js.map"
   },
   "entrypoints": [
-    "static/css/main.175e6e41.css",
+    "static/css/main.739f83ff.css",
     "static/js/main.0b718782.js"
   ]
 }
