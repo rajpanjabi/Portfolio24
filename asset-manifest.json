@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/PortfolioR/static/css/main.cba69393.css",
-    "main.js": "/PortfolioR/static/js/main.538a9d62.js",
-    "static/media/codLol.png": "/PortfolioR/static/media/codLol.93384e46ea713bf5b6dd.png",
-    "static/media/capitalQuizpic.png": "/PortfolioR/static/media/capitalQuizpic.c4b3b38bab57f179cdc2.png",
-    "static/media/spotify.png": "/PortfolioR/static/media/spotify.cbf0aa7ef2ec28218de7.png",
-    "static/media/fa-solid-900.ttf": "/PortfolioR/static/media/fa-solid-900.ad1782c70927ebc5bc87.ttf",
-    "static/media/FamilyTravelTracker.png": "/PortfolioR/static/media/FamilyTravelTracker.4cec7c7a67a134401239.png",
-    "static/media/fa-brands-400.ttf": "/PortfolioR/static/media/fa-brands-400.26b80c8830bebf340211.ttf",
-    "static/media/fa-solid-900.woff2": "/PortfolioR/static/media/fa-solid-900.83a538a018a9e44b023a.woff2",
-    "static/media/fa-brands-400.woff2": "/PortfolioR/static/media/fa-brands-400.fdbb558523a380307689.woff2",
-    "static/media/chatbot.png": "/PortfolioR/static/media/chatbot.c52accfbfbb78d8c95a2.png",
-    "static/media/fa-regular-400.ttf": "/PortfolioR/static/media/fa-regular-400.05fdd87be89f7f8f0a1e.ttf",
-    "static/media/fa-regular-400.woff2": "/PortfolioR/static/media/fa-regular-400.4f6a2dabee9c092d09b9.woff2",
-    "static/media/fa-v4compatibility.ttf": "/PortfolioR/static/media/fa-v4compatibility.fa86b3c85e77abbd2ebd.ttf",
-    "static/media/fa-v4compatibility.woff2": "/PortfolioR/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
-    "index.html": "/PortfolioR/index.html",
-    "static/media/logo.svg": "/PortfolioR/static/media/logo.767aa32adf37a145e5f2e9a9f7b904ce.svg",
-    "main.cba69393.css.map": "/PortfolioR/static/css/main.cba69393.css.map",
-    "main.538a9d62.js.map": "/PortfolioR/static/js/main.538a9d62.js.map"
+    "main.css": "/Portfolio24/static/css/main.175e6e41.css",
+    "main.js": "/Portfolio24/static/js/main.0b718782.js",
+    "static/media/codLol.png": "/Portfolio24/static/media/codLol.93384e46ea713bf5b6dd.png",
+    "static/media/capitalQuizpic.png": "/Portfolio24/static/media/capitalQuizpic.c4b3b38bab57f179cdc2.png",
+    "static/media/spotify.png": "/Portfolio24/static/media/spotify.cbf0aa7ef2ec28218de7.png",
+    "static/media/fa-solid-900.ttf": "/Portfolio24/static/media/fa-solid-900.ad1782c70927ebc5bc87.ttf",
+    "static/media/FamilyTravelTracker.png": "/Portfolio24/static/media/FamilyTravelTracker.4cec7c7a67a134401239.png",
+    "static/media/fa-brands-400.ttf": "/Portfolio24/static/media/fa-brands-400.26b80c8830bebf340211.ttf",
+    "static/media/fa-solid-900.woff2": "/Portfolio24/static/media/fa-solid-900.83a538a018a9e44b023a.woff2",
+    "static/media/fa-brands-400.woff2": "/Portfolio24/static/media/fa-brands-400.fdbb558523a380307689.woff2",
+    "static/media/chatbot.png": "/Portfolio24/static/media/chatbot.c52accfbfbb78d8c95a2.png",
+    "static/media/fa-regular-400.ttf": "/Portfolio24/static/media/fa-regular-400.05fdd87be89f7f8f0a1e.ttf",
+    "static/media/fa-regular-400.woff2": "/Portfolio24/static/media/fa-regular-400.4f6a2dabee9c092d09b9.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Portfolio24/static/media/fa-v4compatibility.fa86b3c85e77abbd2ebd.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Portfolio24/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
+    "index.html": "/Portfolio24/index.html",
+    "static/media/logo.svg": "/Portfolio24/static/media/logo.767aa32adf37a145e5f2e9a9f7b904ce.svg",
+    "main.175e6e41.css.map": "/Portfolio24/static/css/main.175e6e41.css.map",
+    "main.0b718782.js.map": "/Portfolio24/static/js/main.0b718782.js.map"
   },
   "entrypoints": [
-    "static/css/main.cba69393.css",
-    "static/js/main.538a9d62.js"
+    "static/css/main.175e6e41.css",
+    "static/js/main.0b718782.js"
   ]
 }
